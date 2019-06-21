@@ -3,8 +3,8 @@ $(document).ready(function(){
 var randomNumber;
 var randomQuote;
 var randomAuthor;
+var tweetIntent;
 displayQuote();
-
 
 //first load quote machine displays random quote in the element with the id="text"
 function displayQuote() {
@@ -27,9 +27,6 @@ var characters = ["Lumiere", "Blue Fairy", "Timothy Mouse", "The Emperor", "Balo
   });
 
   //Tweet current quote by clicking #tweet-quote a element. Includes path in it's attribute to tweet current quote
-  $("#tweet-quote").click(function(){
-    window.open("https://twitter.com/intent/tweet?text=" + '"' + randomQuote + '"' + " " + randomAuthor);
-  });
-
-
+  var a = "https://twitter.com/intent/tweet?text=";
+  $("#tweet-quote").attr("href", a + '"' + randomQuote + '"' + " " + randomAuthor);
 });
