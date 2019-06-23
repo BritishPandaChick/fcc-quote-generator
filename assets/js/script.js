@@ -28,8 +28,7 @@ var characters = ["Lumiere", "Blue Fairy", "Timothy Mouse", "The Emperor", "Balo
 
   //Tweet current quote by clicking #tweet-quote a element. Includes path in it's attribute to tweet current quote
   $("#tweet-quote").click(function(){
-    var textToTweet = $("#text").text() + " " + $("#author").text();
+    var textToTweet = '"' + $("#text").text() + '"' + " " + $("#author").text();
     var tweetLink = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(textToTweet);
     $("#tweet-quote").attr("href", tweetLink );
-    //window.open(tweetURL, '_blank');
-  }); 
+  });
