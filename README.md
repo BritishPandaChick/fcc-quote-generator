@@ -1,12 +1,18 @@
-# fcc-quote-generator
+# Disney Wisdom Collection Quote Generator
+freeCodeCamp Front End Development Libraries project. Random Quote Machine project. Originally Random Quote Generator project from legacy freeCodeCamp projects.
 
-Free Code Camp Random Quote Machine Project. Originally known as Random Quote Generator. Made with HTML, CSS, Bootstrap, JavaScript and jQuery.
+## Dependencies 
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
 
 ## Instructions
 Clone or download zip file. Open index file in your browser. Click the new quote button to get a brand new quote. Click the tweet quote button to share your quote on Twitter.
 
 ## Contributing
-This project is based on project objectives created by Free Code Camp. Therefore I will not accept any pull requests.
+I will not accept any pull requests.
 
 ## Acknowledgements
 * Dylan Israel
