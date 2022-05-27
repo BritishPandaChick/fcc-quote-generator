@@ -19,3 +19,5 @@ I will not accept any pull requests.
 * Stack Overflow
 * Twitter Developers
 * Free Code Camp forums
+* Bootstrap 
+* jQuery 
