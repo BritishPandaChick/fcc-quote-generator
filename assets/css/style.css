@@ -1,4 +1,59 @@
+/*=== Base Styles ===*/
 body {
     margin: 0 auto;
     width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*=== Header ===*/
+header {
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 55px;
+    font-family: "Lobster Two", cursive;
+}
+
+header h2 {
+    font-size: 45px;
+}
+
+header img {
+    padding: 15px 0;
+}
+
+/*=== Quote Box ===*/
+#quote-box {
+    border: 2px solid blue;
+    padding: 40px;
+}
+
+#text {
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#author {
+    font-family: "Lobster Two", cursive;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+#quote-box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#quote-box a:hover {
+    color: #fff;
+}
+
+/*=== Footer ===*/
+footer {
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
 }
